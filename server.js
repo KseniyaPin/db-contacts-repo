@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 const app = require("./app");
 
-const DB_HOST = "mongodb+srv://Oksanka:FlLcYv2vvNfJhEyx@cluster0.xedr9b8.mongodb.net/contacts-reader?retryWrites=true&w=majority/admin";
+const DB_HOST = "mongodb+srv://Oksanka:FlLcYv2vvNfJhEyx@cluster0.xedr9b8.mongodb.net/contacts-reader?retryWrites=true&w=majority";
 
 // mongoose.set("strictQuery", true);
 
