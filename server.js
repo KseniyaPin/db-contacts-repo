@@ -7,12 +7,14 @@ const DB_HOST = "mongodb+srv://Oksanka:FlLcYv2vvNfJhEyx@cluster0.xedr9b8.mongodb
 // mongoose.set("strictQuery", true);
 
 mongoose.connect(DB_HOST)
-.then(() => {
-  app.listen(3000)
-})
+.then(() => 
+console.log("Data base good")
+// app.listen(3000)
+
+)
 .catch(error => {
   console.log(error.message);
-  process.exit(1);
+  // process.exit(1);
 });
 
 // mongoose.connect(DB_HOST)
